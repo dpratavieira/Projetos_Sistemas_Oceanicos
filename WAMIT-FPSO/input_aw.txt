@@ -1,0 +1,25 @@
+# Angles to plot
+inc_plot = list(range(0, 181, 45))
+
+# Degrees of freedom to plot
+dof_plot = [1,2,3,4,5,6]
+
+# Limit of period axis
+T_lim = [3.5,30]
+
+# Desired Analysis
+interative_Tn_rao = False
+added_mass = True
+wave_forces = True
+rao = True
+damped_rao = False
+b_ext = [0, 0, .03, .05, .05, 0] # 1 body
+drift = True
+drift_analysis = ['m'] # 'm' - momentum, 'p' - pressure, 'c' - control surface
+
+# WNF Mean Drift
+wnf_drift = True
+
+# Figures
+save_fig = True
+show_fig = False
